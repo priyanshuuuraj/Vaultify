@@ -10,7 +10,7 @@ Vaultify is a modern employee management system that helps organizations efficie
 
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express
-- **Database:** MongoDB Atlas
+
 
 ## Features
 
@@ -26,7 +26,7 @@ Vaultify is a modern employee management system that helps organizations efficie
 
 - Node.js (v18+)
 - npm or yarn
-- MongoDB Atlas account
+
 
 ### Installation
 
@@ -43,7 +43,7 @@ Vaultify is a modern employee management system that helps organizations efficie
 
 3. Set up environment variables — create a `.env` file in the root:
 ```env
-   MONGODB_URI=your_mongodb_connection_string
+
    PORT=3000
 ```
 
