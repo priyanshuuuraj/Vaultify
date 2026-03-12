@@ -1,20 +1,75 @@
-<<<<<<< HEAD
-# React + Vite
+# Vaultify 🏢
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Employee Management System built with React + Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vaultify is a modern employee management system that helps organizations efficiently manage their workforce, track employee data, and streamline HR operations.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** MongoDB Atlas
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Vaultify : An Employee Management System
->>>>>>> bf41985e97e1a2af7e8b45dd36cb1b425e6c3bf1
+- Employee records management
+- Add, update, and remove employees
+- Role-based access control
+- Dashboard with key metrics
+- Search and filter employees
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+- MongoDB Atlas account
+
+### Installation
+
+1. Clone the repository
+```bash
+   git clone https://github.com/priyanshuuuuraj/vaultify.git
+   cd vaultify
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Set up environment variables — create a `.env` file in the root:
+```env
+   MONGODB_URI=your_mongodb_connection_string
+   PORT=3000
+```
+
+4. Start the development server
+```bash
+   npm run dev
+```
+
+## Scripts
+
+| Command | Description |
+|--------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+## License
+
+[MIT](LICENSE)
+
+
+## Author 
+
+**Priyanshu Raj**
